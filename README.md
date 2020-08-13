@@ -46,15 +46,17 @@ Depending on the simulation case, the `animation`-scripts show the animation of 
 
 ## Citing
 [![DOI](https://zenodo.org/badge/268262918.svg)](https://zenodo.org/badge/latestdoi/268262918)
+
 This code is made for sharing. If you find it helpful in your work, here is the DOI number to cite it: 10.5281/zenodo.3981610. A possible BibTeX entry might be:
 ```
 @misc{paradvect2020,
-	title = {{Paradvect} ({PARticle} {ADVECTion}): a {Python} code to simulate the trajectory of particles advected by a fluid flow},
-    doi = {10.5281/zenodo.3981610},
-	url = {https://github.com/mou3adb/PARADVECT},
-	publisher = {Zenodo},
-	author = {Boudina, M.},
-	year = {2020}
+	  title = {{Paradvect} ({PARticle} {ADVECTion}): a {Python} code to simulate the 
+	           trajectory of particles advected by a fluid flow},
+      doi = {10.5281/zenodo.3981610},
+      url = {https://github.com/mou3adb/PARADVECT},
+      publisher = {Zenodo},
+      author = {Boudina, M.},
+      year = {2020}
 }
 ```
 Enjoy spreading particles!
