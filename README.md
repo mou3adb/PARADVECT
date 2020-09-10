@@ -8,10 +8,10 @@
   Examples of particles advected by a flow around a vibrating cylinder.
 </p>
 
-PARADVECT is a Python code that computes trajectories of particles advected by a flow (PARticle ADVECTion). If a body is present in the flow, it can also calculate the rate at which particles are captured.
+PARADVECT (PARticle ADVECTion) is a Python code that computes trajectories of particles advected by a flow. If a body is present in the flow, it can also calculate the rate at which particles are captured.
 
 This module was the subject of my MSc research project at Polytechnique Montréal:
-[Mouad Boudina, On the mechanics of vibrating soft corals and particle capture, Polytechnique Montréal, 2020]().
+[Mouad Boudina, On the mechanics of vibrating soft corals and particle capture, Polytechnique Montréal, 2020](). (the link is not yet activated, the thesis is currently available in the file `MSc_Thesis_MBoudina_2020.pdf`)
 
 ## Dependencies
 
@@ -25,7 +25,7 @@ The main objects used in PARADVECT are:
 - `Particle`: contains the particle characteristics (diameter, density, launch time, etc.)
 
 ### Advection
-After loading a flow `flow` and creating a particle `particle`, you can compute the advection trajectory simply with `particle.compute_trajectory(flow, factor)`. The integer `factor` is a refinement factor that refines the timeline, so that the integration time step gets smaller. There is no interaction between particles. In fact, this code integrates the trajectory of a single particle in the flow.
+After loading a `flow` and creating a `particle`, you can compute the advection trajectory simply with `particle.compute_trajectory(flow, factor)`. The integer `factor` is a refinement factor that refines the timeline, so that the integration time step gets smaller. There is no interaction between particles. In fact, this code integrates the trajectory of a single particle in the flow.
 
 We would like to mention that this code uses the neighbour-to-neighbour particle tracer algorithm proposed by [Löhner and Ambrosiano (1990)](doi.org/10.1016/0021-9991(90)90002-I), and implemented in `element_search.py`.
 
@@ -35,8 +35,8 @@ The file `automatic_search_scripts.py` contains all necessary function to calcul
 ### Capture criterion
 We adopted the solid contact as a capture criterion: a particle is captured as soon as it touches the wall of the body. The implementation of this criterion is general of bodies of any shape. I included in my thesis an appendix that explains the method I used to detect particles hitting the wall.
 
-### Classic flows
-In `msh_process.py`, you can create your own mesh with Gmsh, and assign to each node the solution of a classic flow (e.g. Couette, Poiseuille, inviscid flow around cylinder, etc.)
+### Classical flows
+In `msh_process.py`, you can create your own mesh with Gmsh, and assign to each node the solution of a classical flow (e.g. Couette, Poiseuille, inviscid flow around cylinder, etc.)
 
 ### Pathlines and frontlines
 We also provide scripts that calculate pathlines and frontlines of the flow in `pathline.py` and `frontline.py`.
