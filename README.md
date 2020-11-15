@@ -10,8 +10,7 @@
 
 PARADVECT (PARticle ADVECTion) is a Python code that computes trajectories of particles advected by a flow. If a body is present in the flow, it can also calculate the rate at which particles are captured.
 
-This module was the subject of my MSc research project at Polytechnique Montréal:
-[Mouad Boudina, On the mechanics of vibrating soft corals and particle capture, Polytechnique Montréal, 2020](). (the link is not yet activated, the thesis is currently available in the file `MSc_Thesis_MBoudina_2020.pdf`)
+[Mouad Boudina (2020). On the Mechanics of Flow-Induced Vibration of Soft Corals and Particle Interception. Polytechnique Montréal.](https://publications.polymtl.ca/5378/)
 
 ## Dependencies
 
@@ -50,8 +49,8 @@ Depending on the simulation case, the `animation`-scripts show the animation of 
 This code is made for sharing. If you find it helpful in your work, here is the DOI number to cite it: 10.5281/zenodo.3981610. A possible BibTeX entry might be:
 ```
 @misc{paradvect2020,
-	  title = {{Paradvect} ({PARticle} {ADVECTion}): a {Python} code to simulate the 
-	           trajectory of particles advected by a fluid flow},
+  title = {{Paradvect} ({PARticle} {ADVECTion}): a {Python} code to simulate the 
+           trajectory of particles advected by a fluid flow},
       doi = {10.5281/zenodo.3981610},
       url = {https://github.com/mou3adb/PARADVECT},
       publisher = {Zenodo},
