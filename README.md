@@ -45,9 +45,9 @@ Depending on the simulation case, the `animation`-scripts show the animation of 
 [![DOI](https://zenodo.org/badge/268262918.svg)](https://zenodo.org/badge/latestdoi/268262918)
 
 PARADVECT was used so far in:
--[Mouad Boudina (2020). On the Mechanics of Flow-Induced Vibration of Soft Corals and Particle Interception. Polytechnique Montréal.](https://publications.polymtl.ca/5378/)
--[Boudina et al. (2020). Direct interception or inertial impaction? A theoretical derivation of the efficiency power law for a simple and practical definition of capture modes. Physics of Fluids.](https://aip.scitation.org/doi/10.1063/5.0030891)
--[Boudina et al. Vortex-induced vibrations: a soft coral feeding strategy? arXiv.](https://arxiv.org/abs/2009.11764)
+- [Mouad Boudina (2020). On the Mechanics of Flow-Induced Vibration of Soft Corals and Particle Interception. Polytechnique Montréal.](https://publications.polymtl.ca/5378/)
+- [Boudina *et al.* (2020). Direct interception or inertial impaction? A theoretical derivation of the efficiency power law for a simple and practical definition of capture modes. *Physics of Fluids*.](https://aip.scitation.org/doi/10.1063/5.0030891)
+- [Boudina *et al.* Vortex-induced vibrations: a soft coral feeding strategy? *arXiv*.](https://arxiv.org/abs/2009.11764)
 
 This code is made for sharing. If you find it helpful in your work, you can cite it using the format proposed in [Zenodo](https://zenodo.org/record/3981610).
 
